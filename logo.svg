@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60" width="400" height="60">
+  <defs>
+    <style>
+      .logo-primary { fill: #0A598F; font-family: 'Georgia', 'Times New Roman', serif; }
+      .logo-accent { fill: #BE1E2C; }
+    </style>
+  </defs>
+  <!-- Star accent mark -->
+  <polygon class="logo-accent" points="20,5 23.5,16 35,16 25.75,23 29.25,34 20,27 10.75,34 14.25,23 5,16 16.5,16" />
+  <!-- Primary text -->
+  <text x="45" y="28" class="logo-primary" font-size="24" font-weight="700" letter-spacing="1">PLURIBUS POLARIS</text>
+  <!-- JV subtitle -->
+  <text x="45" y="48" class="logo-primary" font-size="14" font-weight="400" letter-spacing="3">JOINT VENTURE</text>
+</svg>

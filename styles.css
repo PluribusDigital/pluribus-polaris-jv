@@ -252,6 +252,81 @@ a:hover {
   line-height: 1.6;
 }
 
+/* ---- Polaris GWAC ---- */
+.gwac-intro {
+  font-size: 1.05rem;
+  color: #333;
+  max-width: 720px;
+  margin: 0 auto 48px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.gwac-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 40px;
+}
+
+.gwac-column-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0A598F;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e2e5ea;
+}
+
+.gwac-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e2e5ea;
+}
+
+.gwac-item strong {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #0A598F;
+}
+
+.gwac-item span,
+.gwac-item a {
+  color: #222;
+  font-size: 0.95rem;
+}
+
+.gwac-item a:hover {
+  color: #0A598F;
+}
+
+.gwac-epeat {
+  background: #f7f8fa;
+  border-left: 4px solid #0A598F;
+  border-radius: 0 6px 6px 0;
+  padding: 24px 28px;
+}
+
+.gwac-epeat h3 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #0A598F;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.gwac-epeat p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.7;
+}
+
 /* ---- Contact ---- */
 .contact-container {
   max-width: 700px;
@@ -321,6 +396,11 @@ a:hover {
 
   .capabilities-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gwac-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 }
 

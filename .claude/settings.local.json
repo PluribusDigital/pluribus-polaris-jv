@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(open:*)"
+      "Bash(open:*)",
+      "Bash(git -C /Users/benmorris/repos/polaris show --stat)",
+      "Bash(wc:*)"
     ]
   }
 }

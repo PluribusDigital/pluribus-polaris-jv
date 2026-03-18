@@ -2,6 +2,36 @@
    Pluribus Polaris JV — Styles
    =========================== */
 
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: #0A598F;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: 600;
+  z-index: 200;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Screen reader only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* Reset & Base */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -91,6 +121,12 @@ a:hover {
   border-bottom-color: #BE1E2C;
 }
 
+.main-nav a:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
 /* ---- Hero ---- */
 .hero {
   background: linear-gradient(135deg, #0A598F 0%, #074068 100%);
@@ -131,6 +167,11 @@ a:hover {
 .btn:hover {
   text-decoration: none;
   transform: translateY(-1px);
+}
+
+.btn:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
 }
 
 .btn-primary {
@@ -372,7 +413,7 @@ a:hover {
 /* ---- Footer ---- */
 .site-footer {
   background: #111;
-  color: #999;
+  color: #aaa;
   padding: 28px 0;
   text-align: center;
   font-size: 0.85rem;

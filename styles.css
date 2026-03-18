@@ -5,7 +5,7 @@
 /* Skip link */
 .skip-link {
   position: absolute;
-  top: -100%;
+  top: -9999px;
   left: 0;
   background: #0A598F;
   color: #fff;
